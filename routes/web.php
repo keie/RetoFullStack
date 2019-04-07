@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
+  //$movies=DB::table('movie')->get();
+  //return $movies;
     return view('welcome');
 });
