@@ -1,7 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
 .footerPoster{
   background-color: white;
 }
 
 body{
-  background-color: gray;
+  background-color: #DCDCDC;
+  width: 230px;
+  padding-top: 30px;
+  margin: 30px;
+
+}
+
+.poster{
+  margin-left: 15px;
+}
+
+.example{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.container{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.buttonDetail{
+  background-color: #FAB005;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+}
+
+.title{
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+}
+
+.preview{
+  font-family: 'Nunito', sans-serif;
+  font-size: 13px;
+  color: #FAB005;
+}
+
+.rating{
+  font-family: 'Nunito', sans-serif;
+  font-size: 21px;
+  color: #212529;
+}
+
+.wallpaper>img{
+  width:200px;
+  height: 250px;
 }

@@ -30,17 +30,17 @@ export default class Home extends Component {
               {
                 this.state.movies.map(movie=>
                   <div className="poster" >
-                    <div>
-                      <img src={movie.wallpaper} width="100px" width="100px"/>
+                    <div className="wallpaper">
+                      <img src={movie.wallpaper} />
                     </div>
                     <div className="footerPoster">
-                      <div>
+                      <div className="title">
                         {movie.title}
                         </div>
-                      <div>
+                      <div className="preview">
                         {movie.preview}
                       </div>
-                      <div>
+                      <div className="rating">
                         <table>
                           <tr>
                             <td>
@@ -50,7 +50,7 @@ export default class Home extends Component {
                               {movie.rating}
                             </td>
                             <td>
-                              <input type="button" value="Details"/>
+                              <input className="buttonDetail" type="button" value="Details"/>
                             </td>
                         </tr>
                       </table>
