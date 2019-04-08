@@ -1,0 +1,8 @@
+.container>footer{
+  background-color: black;
+  height: 100px;
+  margin-top: 900px;
+  margin-left: -590px;
+  width:100vw;
+  position: absolute;
+}
