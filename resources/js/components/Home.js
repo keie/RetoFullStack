@@ -27,8 +27,11 @@ export default class Home extends Component {
 
         return (
             <div className="container">
+
               {
+
                 this.state.movies.map(movie=>
+
                   <div className="poster" >
                     <div className="wallpaper">
                       <img src={movie.wallpaper} />
@@ -53,6 +56,7 @@ export default class Home extends Component {
                     </div>
                   </div>
                 </div>
+
                 )
 
               }

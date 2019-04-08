@@ -8,20 +8,29 @@ body{
   background-color: #DCDCDC;
   width: 230px;
   padding-top: 30px;
-  margin: 30px;
 
+
+
+}
+
+.body>poster{
+  justify-content: center;
 }
 
 .poster{
   margin-left: 15px;
-}
-
-.example{
-  display: flex;
-  flex-wrap: nowrap;
+  margin-top: 15px;
 }
 
 .container{
+  display: grid;
+  flex-wrap: nowrap;
+   grid-template-columns: 215px 215px 215px;
+   padding: 40px;
+   margin-left: 250px;
+}
+
+.row{
   display: flex;
   flex-wrap: nowrap;
 }
