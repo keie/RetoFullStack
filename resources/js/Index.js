@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom';
 
 //import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './components/Home';
-
-
+import Header from './components/Header';
 import Example from './components/Example';
 
 
@@ -12,6 +11,7 @@ export default class Index extends Component {
     render() {
         return (
           <div className="container">
+
               <Home/>
           </div>
         );

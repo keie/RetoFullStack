@@ -26,8 +26,9 @@ body{
   display: grid;
   flex-wrap: nowrap;
    grid-template-columns: 215px 215px 215px;
-   padding: 40px;
-   margin-left: 250px;
+   padding: 30px;
+   margin-left: 150px;
+   margin-top: 50px;
 }
 
 .row{
@@ -68,4 +69,8 @@ body{
 }
 .thirdR{
   margin-left: 50px;
+}
+
+.logoHeader{
+  margin-top: -50px;
 }
