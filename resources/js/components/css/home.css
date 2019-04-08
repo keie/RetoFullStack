@@ -30,6 +30,8 @@ body{
   background-color: #FAB005;
   font-family: 'Nunito', sans-serif;
   font-size: 14px;
+  float: right;
+
 }
 
 .title{
@@ -47,9 +49,14 @@ body{
   font-family: 'Nunito', sans-serif;
   font-size: 21px;
   color: #212529;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .wallpaper>img{
   width:200px;
   height: 250px;
+}
+.thirdR{
+  margin-left: 50px;
 }

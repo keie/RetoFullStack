@@ -6211,7 +6211,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Nunito);", ""]);
 
 // module
-exports.push([module.i, ".footerPoster{\r\n  background-color: white;\r\n}\r\n\r\nbody{\r\n  background-color: #DCDCDC;\r\n  width: 230px;\r\n  padding-top: 30px;\r\n  margin: 30px;\r\n\r\n}\r\n\r\n.poster{\r\n  margin-left: 15px;\r\n}\r\n\r\n.example{\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n}\r\n\r\n.container{\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n}\r\n\r\n.buttonDetail{\r\n  background-color: #FAB005;\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 14px;\r\n}\r\n\r\n.title{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 16px;\r\n}\r\n\r\n.preview{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 13px;\r\n  color: #FAB005;\r\n}\r\n\r\n.rating{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 21px;\r\n  color: #212529;\r\n}\r\n\r\n.wallpaper>img{\r\n  width:200px;\r\n  height: 250px;\r\n}\r\n", ""]);
+exports.push([module.i, ".footerPoster{\r\n  background-color: white;\r\n}\r\n\r\nbody{\r\n  background-color: #DCDCDC;\r\n  width: 230px;\r\n  padding-top: 30px;\r\n  margin: 30px;\r\n\r\n}\r\n\r\n.poster{\r\n  margin-left: 15px;\r\n}\r\n\r\n.example{\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n}\r\n\r\n.container{\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n}\r\n\r\n.buttonDetail{\r\n  background-color: #FAB005;\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 14px;\r\n  float: right;\r\n\r\n}\r\n\r\n.title{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 16px;\r\n}\r\n\r\n.preview{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 13px;\r\n  color: #FAB005;\r\n}\r\n\r\n.rating{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 21px;\r\n  color: #212529;\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n}\r\n\r\n.wallpaper>img{\r\n  width:200px;\r\n  height: 250px;\r\n}\r\n.thirdR{\r\n  margin-left: 50px;\r\n}\r\n", ""]);
 
 // exports
 
@@ -62081,15 +62081,21 @@ function (_Component) {
           className: "preview"
         }, movie.preview), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: "rating"
-        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("table", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "firtsR"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
           className: "rating",
           src: __webpack_require__(/*! ../../images/rating.png */ "./resources/images/rating.png"),
           width: "30px"
-        })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, movie.rating), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "secondR"
+        }, movie.rating), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "thirdR"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
           className: "buttonDetail",
           type: "button",
           value: "Details"
-        })))))));
+        })))));
       }));
     }
   }]);

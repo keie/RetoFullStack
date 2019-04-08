@@ -41,19 +41,15 @@ export default class Home extends Component {
                         {movie.preview}
                       </div>
                       <div className="rating">
-                        <table>
-                          <tr>
-                            <td>
-                              <img className="rating" src={require('../../images/rating.png')} width='30px'/>
-                            </td>
-                            <td>
-                              {movie.rating}
-                            </td>
-                            <td>
-                              <input className="buttonDetail" type="button" value="Details"/>
-                            </td>
-                        </tr>
-                      </table>
+                        <div className="firtsR">
+                          <img className="rating" src={require('../../images/rating.png')} width='30px'/>
+                        </div>
+                        <div className="secondR">
+                          {movie.rating}
+                        </div>
+                        <div className="thirdR">
+                          <input className="buttonDetail" type="button" value="Details"/>
+                        </div>
                     </div>
                   </div>
                 </div>
