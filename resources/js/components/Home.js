@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
+import './css/home.css';
 
 
 export default class Home extends Component {
@@ -29,9 +30,33 @@ export default class Home extends Component {
               {
                 this.state.movies.map(movie=>
                   <div className="poster" >
-                    <img src={movie.wallpaper} width="100px" width="100px"/>
+                    <div>
+                      <img src={movie.wallpaper} width="100px" width="100px"/>
+                    </div>
+                    <div className="footerPoster">
+                      <div>
+                        {movie.title}
+                        </div>
+                      <div>
+                        {movie.preview}
+                      </div>
+                      <div>
+                        <table>
+                          <tr>
+                            <td>
+                              <img className="rating" src={require('../../images/rating.png')} width='30px'/>
+                            </td>
+                            <td>
+                              {movie.rating}
+                            </td>
+                            <td>
+                              <input type="button" value="Details"/>
+                            </td>
+                        </tr>
+                      </table>
+                    </div>
                   </div>
-
+                </div>
                 )
 
               }
