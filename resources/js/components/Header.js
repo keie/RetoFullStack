@@ -8,10 +8,12 @@ export default class Header extends Component {
 
       render() {
         return (
-            <div className="container">
-              <center>
-                <img className="logoHeader"src={require('../../images/logo.png')} height="90px"/ >
-              </center>
+            <div className="header">
+              <div className="iconsHeader">
+                <div className="logoTheMovieDb">
+                  <img src={require('../../images/logoTheMovieDb.png')} />
+                </div>
+              </div>
             </div>
         );
     }

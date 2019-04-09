@@ -6211,7 +6211,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".container>footer{\n  background-color: white;\n  height: 100px;\n  margin-top: 900px;\n  margin-left: -590px;\n  width:100vw;\n  position: absolute;\n}\n\n.iconContainer{\n\n  display: flex;\n  padding: 20px;\n\n}\n.iconContainer{\n  justify-content: center;\n  \n\n}\n\n.iconContainer>div{\n  padding-left: 40px;\n}\n\n.iconIns{\n  justify-content: center;\n  margin-left: 10px;\n}\n", ""]);
+exports.push([module.i, ".container>footer{\n  background-color: white;\n  height: 100px;\n  margin-top: 900px;\n  margin-left: -590px;\n  width:100vw;\n  position: absolute;\n}\n\n.iconContainer{\n\n  display: flex;\n  padding: 20px;\n\n}\n.iconContainer{\n  justify-content: center;\n  margin-left: -100px;\n\n}\n\n.iconContainer>div{\n  padding-left: 40px;\n}\n\n.iconIns{\n  justify-content: center;\n  margin-left: 10px;\n}\n", ""]);
 
 // exports
 
@@ -6230,7 +6230,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".logoHeader{\r\n  margin-top: -50px;\r\n}\r\n", ""]);
+exports.push([module.i, ".header{\r\n  position: fixed;\r\n  top:0;\r\n  margin-left: -300px;\r\n  width:2000px;\r\n  height:100px;\r\n  background-color:#333;\r\n  color:#FFFFFF;\r\n  padding:10px;\r\n\r\n}\r\n\r\n.iconsHeader{\r\n  justify-content: flex-start;\r\n}\r\n\r\n.logoTheMovieDb{\r\n  margin-left: 200px;\r\n}\r\n\r\n.logoTheMovieDb>img{\r\n  height: 80px;\r\n}\r\n", ""]);
 
 // exports
 
@@ -61956,14 +61956,14 @@ module.exports = "/images/instagram.png?da9c7ffefea136e812f398b021ac1f39";
 
 /***/ }),
 
-/***/ "./resources/images/logo.png":
-/*!***********************************!*\
-  !*** ./resources/images/logo.png ***!
-  \***********************************/
+/***/ "./resources/images/logoTheMovieDb.png":
+/*!*********************************************!*\
+  !*** ./resources/images/logoTheMovieDb.png ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/logo.png?3c81175e9a515d035e59d595a8444f06";
+module.exports = "/images/logoTheMovieDb.png?9b3f9c24d9fd5f297ae433eb33d93514";
 
 /***/ }),
 
@@ -62049,7 +62049,7 @@ function (_Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Home__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], null));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Home__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], null));
     }
   }]);
 
@@ -62367,12 +62367,14 @@ function (_Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "container"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("center", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: "logoHeader",
-        src: __webpack_require__(/*! ../../images/logo.png */ "./resources/images/logo.png"),
-        height: "90px"
-      })));
+        className: "header"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "iconsHeader"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "logoTheMovieDb"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: __webpack_require__(/*! ../../images/logoTheMovieDb.png */ "./resources/images/logoTheMovieDb.png")
+      }))));
     }
   }]);
 
@@ -62462,12 +62464,7 @@ function (_Component) {
   }, {
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: "logoRequire",
-        src: '../../images/logo.png',
-        width: "100px",
-        height: "100px"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container"
       }, this.state.movies.map(function (movie) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {

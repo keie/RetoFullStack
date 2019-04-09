@@ -1,3 +1,23 @@
-.logoHeader{
-  margin-top: -50px;
+.header{
+  position: fixed;
+  top:0;
+  margin-left: -300px;
+  width:2000px;
+  height:100px;
+  background-color:#333;
+  color:#FFFFFF;
+  padding:10px;
+
+}
+
+.iconsHeader{
+  justify-content: flex-start;
+}
+
+.logoTheMovieDb{
+  margin-left: 200px;
+}
+
+.logoTheMovieDb>img{
+  height: 80px;
 }

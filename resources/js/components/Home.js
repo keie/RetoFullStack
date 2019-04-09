@@ -27,9 +27,7 @@ export default class Home extends Component {
 
         return (
           <div >
-            <div >
-              <img  className="logoRequire" src={'../../images/logo.png'} width="100px" height="100px"/>
-            </div>
+          
             <div className="container">
 
               {
