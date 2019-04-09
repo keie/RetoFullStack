@@ -6211,7 +6211,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".container>footer{\n  background-color: white;\n  height: 100px;\n  margin-top: 900px;\n  margin-left: -590px;\n  width:100vw;\n  position: absolute;\n}\n\n.iconContainer{\n\n  display: flex;\n  padding: 20px;\n\n}\n.iconContainer{\n  justify-content: center;\n  margin-left: -100px;\n\n}\n\n.iconContainer>div{\n  padding-left: 40px;\n}\n\n.iconIns{\n  justify-content: center;\n  margin-left: 10px;\n}\n", ""]);
+exports.push([module.i, ".container>footer{\n  background-color: white;\n  height: 100px;\n  margin-top: 900px;\n  margin-left: -455px;\n  width:100vw;\n  position: absolute;\n}\n\n.iconContainer{\n\n  display: flex;\n  padding: 20px;\n\n}\n.iconContainer{\n  justify-content: center;\n  margin-left: -100px;\n\n}\n\n.iconContainer>div{\n  padding-left: 40px;\n}\n\n.iconIns{\n  justify-content: center;\n  margin-left: 10px;\n}\n", ""]);
 
 // exports
 
@@ -6230,7 +6230,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".header{\r\n  position: fixed;\r\n  top:0;\r\n  margin-left: -300px;\r\n  width:2000px;\r\n  height:100px;\r\n  background-color:#333;\r\n  color:#FFFFFF;\r\n  padding:10px;\r\n\r\n}\r\n\r\n.iconsHeader{\r\n  justify-content: flex-start;\r\n}\r\n\r\n.logoTheMovieDb{\r\n  margin-left: 200px;\r\n}\r\n\r\n.logoTheMovieDb>img{\r\n  height: 80px;\r\n}\r\n", ""]);
+exports.push([module.i, ".header{\r\n  position: fixed;\r\n  top:0;\r\n  margin-left: -300px;\r\n  width:2000px;\r\n  height:100px;\r\n  background-color:#081c24;\r\n  color:#FFFFFF;\r\n  padding:10px;\r\n\r\n}\r\n\r\n.iconsHeader{\r\n  justify-content: flex-start;\r\n}\r\n\r\n.logoTheMovieDb{\r\n  margin-left: 200px;\r\n}\r\n\r\n.logoTheMovieDb>img{\r\n  height: 80px;\r\n}\r\n\r\n.lowerE{\r\n  background: white;\r\n  padding: 10px;\r\n  display: flex;\r\n\r\n\r\n}\r\n.lowerE>div{\r\n  padding-left: 40px;\r\n}\r\n\r\n\r\n\r\n.mGlass>img{\r\n  margin-left: 200px;\r\n}\r\n\r\n.inputNotBorder{\r\n  border: 0;\r\n  background-color: #fff;\r\n  font-size: 20px;\r\n  font-style: oblique;\r\n  width: 300px;\r\n}\r\n", ""]);
 
 // exports
 
@@ -6249,7 +6249,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Nunito);", ""]);
 
 // module
-exports.push([module.i, ".footerPoster{\r\n  background-color: white;\r\n}\r\n\r\nbody{\r\n  background-color: #DCDCDC;\r\n  width: 230px;\r\n  padding-top: 30px;\r\n\r\n\r\n\r\n}\r\n\r\n.body>poster{\r\n  justify-content: center;\r\n}\r\n\r\n.poster{\r\n  margin-left: 15px;\r\n  margin-top: 15px;\r\n}\r\n\r\n.container{\r\n  display: grid;\r\n  flex-wrap: nowrap;\r\n   grid-template-columns: 215px 215px 215px;\r\n   padding: 30px;\r\n   margin-left: 150px;\r\n   margin-top: 50px;\r\n}\r\n\r\n.row{\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n}\r\n\r\n.buttonDetail{\r\n  background-color: #FAB005;\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 14px;\r\n  float: right;\r\n\r\n}\r\n\r\n.title{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 16px;\r\n}\r\n\r\n.preview{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 13px;\r\n  color: #FAB005;\r\n}\r\n\r\n.rating{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 21px;\r\n  color: #212529;\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n}\r\n\r\n.wallpaper>img{\r\n  width:200px;\r\n  height: 250px;\r\n}\r\n.thirdR{\r\n  margin-left: 50px;\r\n}\r\n\r\n.logoHeader{\r\n  margin-top: -50px;\r\n}\r\n\r\n.logoRequire{\r\n  margin-left: 450px;\r\n}\r\n", ""]);
+exports.push([module.i, ".footerPoster{\r\n  background-color: white;\r\n}\r\n\r\nbody{\r\n  background-color: #DCDCDC;\r\n  width: 230px;\r\n  padding-top: 30px;\r\n\r\n\r\n\r\n}\r\n\r\n.body>poster{\r\n  justify-content: center;\r\n}\r\n\r\n.poster{\r\n  margin-left: 15px;\r\n  margin-top: 15px;\r\n}\r\n\r\n.container{\r\n  display: grid;\r\n  flex-wrap: nowrap;\r\n   grid-template-columns: 215px 215px 215px 215px 215px;\r\n   padding: 30px;\r\n   margin-left: 90px;\r\n   margin-top: 50px;\r\n}\r\n\r\n.row{\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n}\r\n\r\n.buttonDetail{\r\n  background-color: #FAB005;\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 14px;\r\n  float: right;\r\n\r\n}\r\n\r\n.title{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 16px;\r\n}\r\n\r\n.preview{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 13px;\r\n  color: #FAB005;\r\n}\r\n\r\n.rating{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 21px;\r\n  color: #212529;\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n}\r\n\r\n.wallpaper>img{\r\n  width:200px;\r\n  height: 250px;\r\n}\r\n.thirdR{\r\n  margin-left: 50px;\r\n}\r\n\r\n.logoHeader{\r\n  margin-top: -50px;\r\n}\r\n\r\n.logoRequire{\r\n  margin-left: 450px;\r\n}\r\n", ""]);
 
 // exports
 
@@ -61967,6 +61967,17 @@ module.exports = "/images/logoTheMovieDb.png?9b3f9c24d9fd5f297ae433eb33d93514";
 
 /***/ }),
 
+/***/ "./resources/images/magnifier.png":
+/*!****************************************!*\
+  !*** ./resources/images/magnifier.png ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/magnifier.png?b9fff90909ad7509cc86fa650fd2ca2e";
+
+/***/ }),
+
 /***/ "./resources/images/rating.png":
 /*!*************************************!*\
   !*** ./resources/images/rating.png ***!
@@ -62374,6 +62385,18 @@ function (_Component) {
         className: "logoTheMovieDb"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: __webpack_require__(/*! ../../images/logoTheMovieDb.png */ "./resources/images/logoTheMovieDb.png")
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "lowerE"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "mGlass"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: __webpack_require__(/*! ../../images/magnifier.png */ "./resources/images/magnifier.png")
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "seeker"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        className: "inputNotBorder",
+        type: "text",
+        placeholder: "Search your Movie......."
       }))));
     }
   }]);

@@ -4,7 +4,7 @@
   margin-left: -300px;
   width:2000px;
   height:100px;
-  background-color:#333;
+  background-color:#081c24;
   color:#FFFFFF;
   padding:10px;
 
@@ -20,4 +20,29 @@
 
 .logoTheMovieDb>img{
   height: 80px;
+}
+
+.lowerE{
+  background: white;
+  padding: 10px;
+  display: flex;
+
+
+}
+.lowerE>div{
+  padding-left: 40px;
+}
+
+
+
+.mGlass>img{
+  margin-left: 200px;
+}
+
+.inputNotBorder{
+  border: 0;
+  background-color: #fff;
+  font-size: 20px;
+  font-style: oblique;
+  width: 300px;
 }
