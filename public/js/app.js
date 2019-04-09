@@ -6211,7 +6211,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, ".container>footer{\n  background-color: black;\n  height: 100px;\n  margin-top: 900px;\n  margin-left: -590px;\n  width:100vw;\n  position: absolute;\n}\n", ""]);
+exports.push([module.i, ".container>footer{\n  background-color: white;\n  height: 100px;\n  margin-top: 900px;\n  margin-left: -590px;\n  width:100vw;\n  position: absolute;\n}\n\n.iconContainer{\n\n  display: flex;\n  padding: 20px;\n\n}\n.iconContainer{\n  justify-content: center;\n  \n\n}\n\n.iconContainer>div{\n  padding-left: 40px;\n}\n\n.iconIns{\n  justify-content: center;\n  margin-left: 10px;\n}\n", ""]);
 
 // exports
 
@@ -61934,6 +61934,28 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./resources/images/facebook.png":
+/*!***************************************!*\
+  !*** ./resources/images/facebook.png ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/facebook.png?2522f2ecd5000eff9bee1165cff14634";
+
+/***/ }),
+
+/***/ "./resources/images/instagram.png":
+/*!****************************************!*\
+  !*** ./resources/images/instagram.png ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/instagram.png?da9c7ffefea136e812f398b021ac1f39";
+
+/***/ }),
+
 /***/ "./resources/images/logo.png":
 /*!***********************************!*\
   !*** ./resources/images/logo.png ***!
@@ -61953,6 +61975,17 @@ module.exports = "/images/logo.png?3c81175e9a515d035e59d595a8444f06";
 /***/ (function(module, exports) {
 
 module.exports = "/images/rating.png?9eb9bf6ace2f75efbc337d806a616c40";
+
+/***/ }),
+
+/***/ "./resources/images/twitter.png":
+/*!**************************************!*\
+  !*** ./resources/images/twitter.png ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/twitter.png?5ccb6ff5046db094686853cba626edbe";
 
 /***/ }),
 
@@ -62248,7 +62281,21 @@ function (_Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", null));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "iconContainer"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "iconIns"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: __webpack_require__(/*! ../../images/instagram.png */ "./resources/images/instagram.png")
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "iconFb"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: __webpack_require__(/*! ../../images/twitter.png */ "./resources/images/twitter.png")
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "iconFb"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: __webpack_require__(/*! ../../images/facebook.png */ "./resources/images/facebook.png")
+      })))));
     }
   }]);
 

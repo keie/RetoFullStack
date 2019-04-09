@@ -1,8 +1,29 @@
 .container>footer{
-  background-color: black;
+  background-color: white;
   height: 100px;
   margin-top: 900px;
   margin-left: -590px;
   width:100vw;
   position: absolute;
+}
+
+.iconContainer{
+
+  display: flex;
+  padding: 20px;
+
+}
+.iconContainer{
+  justify-content: center;
+  
+
+}
+
+.iconContainer>div{
+  padding-left: 40px;
+}
+
+.iconIns{
+  justify-content: center;
+  margin-left: 10px;
 }

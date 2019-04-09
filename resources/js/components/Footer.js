@@ -10,7 +10,17 @@ export default class Footer extends Component {
         return (
             <div className="container">
               <footer>
-
+                <div className="iconContainer">
+                  <div className="iconIns">
+                    <img src={require('../../images/instagram.png')}/>
+                  </div>
+                  <div className="iconFb">
+                    <img  src={require('../../images/twitter.png')}/>
+                  </div>
+                  <div className="iconFb">
+                    <img  src={require('../../images/facebook.png')}/>
+                  </div>
+                </div>
               </footer>
             </div>
         );
