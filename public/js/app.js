@@ -62546,7 +62546,10 @@ function (_Component) {
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
           className: "buttonDetail",
           type: "button",
-          value: "Details"
+          value: "Details",
+          onClick: function onClick() {
+            alert("Hi, it's me");
+          }
         })))));
       })));
     }

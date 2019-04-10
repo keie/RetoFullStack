@@ -29,6 +29,8 @@ export default class Home extends Component {
         showPopup: !this.state.showPopup
       });
     }
+
+    
     render() {
 
         return (
@@ -59,7 +61,7 @@ export default class Home extends Component {
                           {movie.rating}
                         </div>
                         <div className="thirdR">
-                          <input className="buttonDetail" type="button" value="Details" />
+                          <input className="buttonDetail" type="button" value="Details" onClick={()=>{alert("Hi, it's me")}}/>
                           
                           
                         </div>
