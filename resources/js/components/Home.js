@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
 import './css/home.css';
+import Popup from './Popup';
 
 
 export default class Home extends Component {
@@ -61,8 +62,14 @@ export default class Home extends Component {
                           {movie.rating}
                         </div>
                         <div className="thirdR">
-                          <input className="buttonDetail" type="button" value="Details" onClick={()=>{alert("Hi, it's me")}}/>
+                          <input className="buttonDetail" type="button" value="Details" onClick={this.togglePopup.bind(this)}/>
                           
+                          {this.state.showPopup ? 
+                            
+                            <Popup closePopup={this.togglePopup.bind(this)} style={'background-color:red;'}/>
+                            
+                            : null
+                          }
                           
                         </div>
                     </div>
