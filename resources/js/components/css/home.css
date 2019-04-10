@@ -5,7 +5,7 @@
 }
 
 body{
-  background-color: #DCDCDC;
+  background-color: #1E1D1D;
   width: 230px;
   padding-top: 30px;
 
@@ -29,6 +29,7 @@ body{
    padding: 30px;
    margin-left: 90px;
    margin-top: 50px;
+   z-index: 1;
 }
 
 .row{

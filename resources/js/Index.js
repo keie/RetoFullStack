@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 import Home from './components/Home';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Popup from './components/Popup';
 import Example from './components/Example';
 
 
@@ -15,6 +16,7 @@ export default class Index extends Component {
               <Header/>
               <Home/>
               <Footer/>
+              
           </div>
         );
     }

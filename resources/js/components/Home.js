@@ -9,7 +9,8 @@ export default class Home extends Component {
     constructor(){
       super();
       this.state={
-        movies:[]
+        movies:[],
+        showPopup: false
       }
 
     }
@@ -22,7 +23,12 @@ export default class Home extends Component {
       }).catch(errors => {
               console.log(errors);
       })
-  }
+    }
+    togglePopup() {
+      this.setState({
+        showPopup: !this.state.showPopup
+      });
+    }
     render() {
 
         return (
@@ -53,7 +59,9 @@ export default class Home extends Component {
                           {movie.rating}
                         </div>
                         <div className="thirdR">
-                          <input className="buttonDetail" type="button" value="Details"/>
+                          <input className="buttonDetail" type="button" value="Details" />
+                          
+                          
                         </div>
                     </div>
                   </div>
