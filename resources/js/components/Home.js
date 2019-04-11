@@ -68,7 +68,7 @@ export default class Home extends Component {
                           {movie.rating}
                         </div>
                         <div className="thirdR">
-                          <input className="buttonDetail" type="button" value="Details" onClick={this.togglePopup.bind(this,movie.title)}/>
+                          <input className="buttonDetail" type="button" value="Details" onClick={this.togglePopup.bind(this,movie.id)}/>
                           
                           
                           {this.state.showPopup ? 

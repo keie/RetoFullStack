@@ -66639,7 +66639,7 @@ function (_Component) {
           className: "buttonDetail",
           type: "button",
           value: "Details",
-          onClick: _this3.togglePopup.bind(_this3, movie.title)
+          onClick: _this3.togglePopup.bind(_this3, movie.id)
         }), _this3.state.showPopup ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Popup__WEBPACK_IMPORTED_MODULE_5__["default"], {
           closePopup: _this3.togglePopup.bind(_this3),
           text: _this3.state.movieName
@@ -66708,25 +66708,52 @@ var Popup =
 function (_Component) {
   _inherits(Popup, _Component);
 
-  function Popup() {
+  function Popup(props) {
+    var _this;
+
     _classCallCheck(this, Popup);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(Popup).apply(this, arguments));
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Popup).call(this, props));
+    _this.state = {
+      fullDescription: {}
+    };
+    return _this;
   }
 
   _createClass(Popup, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      axios__WEBPACK_IMPORTED_MODULE_2___default.a.get("/api/movie/" + this.props.text).then(function (response) {
+        _this2.setState({
+          fullDescription: response.data[0]
+        });
+      })["catch"](function (error) {
+        return console.log(error);
+      });
+    }
+  }, {
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "popupContainer"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "popup"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-        type: "button",
-        className: "bClose",
-        value: "close",
-        onClick: this.props.closePopup
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, this.props.text)));
+      if (this.state.fullDescription) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "popupContainer"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "popup"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+          type: "button",
+          className: "bClose",
+          value: "close",
+          onClick: this.props.closePopup
+        })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+          src: this.state.fullDescription.wallpaper,
+          height: "450px",
+          width: "320px"
+        }))));
+      } else {
+        return null;
+      }
     }
   }]);
 

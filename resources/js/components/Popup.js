@@ -7,7 +7,21 @@ import './css/popup.css';
 
 export default class Popup extends Component {
 
-      render() {
+  constructor(props){
+    super(props);
+    this.state={
+      fullDescription:{}
+    };
+  }    
+  componentDidMount(){
+    axios.get("/api/movie/" + this.props.text).then(response => {
+      this.setState({fullDescription : response.data[0]});
+    }).catch(error => console.log(error));
+  }
+  render() {
+    if(this.state.fullDescription){
+
+    
         return (
 
               <div className="popupContainer">
@@ -21,13 +35,16 @@ export default class Popup extends Component {
                     />
                   </div>
                   <div>
-                    {this.props.text}
+                    <img src={this.state.fullDescription.wallpaper} height="450px" width="320px"/>
                   </div>
                 </div>
               </div>
 
         );
+    }else{
+      return null;
     }
+  }
 }
 //{this.state.movies.map(movie=><div>{movie.title}</div>)}
 if (document.getElementById('example')) {
