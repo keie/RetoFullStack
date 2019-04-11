@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
+import {BrowserRouter as Router,Link,Route} from 'react-router-dom';
 import './css/home.css';
 import Popup from './Popup';
 
@@ -12,7 +13,8 @@ export default class Home extends Component {
       
       this.state={
         movies:[],
-        showPopup: false
+        showPopup: false,
+        movieName:'unkNow'
       }
       
     }
@@ -27,9 +29,11 @@ export default class Home extends Component {
       })
     }
     
-    togglePopup() {
+    togglePopup(movieName) {
+      const nameMovie=movieName;
       this.setState({
-        showPopup: !this.state.showPopup
+        showPopup: !this.state.showPopup,
+        movieName:nameMovie
       });
     }
     
@@ -64,10 +68,11 @@ export default class Home extends Component {
                           {movie.rating}
                         </div>
                         <div className="thirdR">
-                          <input className="buttonDetail" type="button" value="Details" onClick={this.togglePopup.bind(this)}/>
+                          <input className="buttonDetail" type="button" value="Details" onClick={this.togglePopup.bind(this,movie.title)}/>
+                          
                           
                           {this.state.showPopup ? 
-                            <Popup closePopup={this.togglePopup.bind(this)} />
+                            <Popup closePopup={this.togglePopup.bind(this)} text={this.state.movieName}/>
                             : null
                           }
                           

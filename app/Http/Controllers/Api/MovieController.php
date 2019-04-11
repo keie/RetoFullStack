@@ -50,6 +50,8 @@ class MovieController extends Controller
     public function show($id)
     {
         //
+        $movieId=Movie::where('id',$id)->get();
+        return response()->json($movieId);
     }
 
     /**

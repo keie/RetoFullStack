@@ -20,6 +20,9 @@ export default class Popup extends Component {
                       onClick={this.props.closePopup}
                     />
                   </div>
+                  <div>
+                    {this.props.text}
+                  </div>
                 </div>
               </div>
 
