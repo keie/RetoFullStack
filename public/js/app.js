@@ -6249,7 +6249,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Nunito);", ""]);
 
 // module
-exports.push([module.i, ".footerPoster{\r\n  background-color: white;\r\n}\r\n\r\nbody{\r\n  background-color: #1E1D1D;\r\n  width: 230px;\r\n  padding-top: 30px;\r\n\r\n\r\n\r\n}\r\n\r\n.body>poster{\r\n  justify-content: center;\r\n}\r\n\r\n.poster{\r\n  margin-left: 15px;\r\n  margin-top: 15px;\r\n}\r\n\r\n.container{\r\n  display: grid;\r\n  flex-wrap: nowrap;\r\n   grid-template-columns: 215px 215px 215px 215px 215px;\r\n   padding: 30px;\r\n   margin-left: 90px;\r\n   margin-top: 50px;\r\n   z-index: 1;\r\n}\r\n\r\n.row{\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n}\r\n\r\n.buttonDetail{\r\n  background-color: #FAB005;\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 14px;\r\n  float: right;\r\n\r\n}\r\n\r\n.title{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 16px;\r\n}\r\n\r\n.preview{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 13px;\r\n  color: #FAB005;\r\n}\r\n\r\n.rating{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 21px;\r\n  color: #212529;\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n}\r\n\r\n.wallpaper>img{\r\n  width:200px;\r\n  height: 250px;\r\n}\r\n.thirdR{\r\n  margin-left: 50px;\r\n}\r\n\r\n.logoHeader{\r\n  margin-top: -50px;\r\n}\r\n\r\n.logoRequire{\r\n  margin-left: 450px;\r\n}\r\n", ""]);
+exports.push([module.i, ".footerPoster{\r\n  background-color: white;\r\n}\r\n\r\nbody{\r\n  background-color: #1E1D1D;\r\n  width: 230px;\r\n  padding-top: 30px;\r\n\r\n\r\n\r\n}\r\n\r\n.body>poster{\r\n  justify-content: center;\r\n}\r\n\r\n.poster{\r\n  margin-left: 15px;\r\n  margin-top: 15px;\r\n}\r\n\r\n.container{\r\n  display: grid;\r\n  flex-wrap: nowrap;\r\n   grid-template-columns: 215px 215px 215px 215px 215px;\r\n   padding: 30px;\r\n   margin-left: 90px;\r\n   margin-top: 50px;\r\n   z-index: 1;\r\n}\r\n\r\n.row{\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n}\r\n\r\n.buttonDetail{\r\n  background-color: #FAB005;\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 14px;\r\n  float: right;\r\n\r\n}\r\n\r\n.title{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 16px;\r\n}\r\n\r\n.preview{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 13px;\r\n  color: #FAB005;\r\n}\r\n\r\n.rating{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 21px;\r\n  color: #212529;\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n}\r\n\r\n.wallpaper>img{\r\n  width:200px;\r\n  height: 250px;\r\n}\r\n.thirdR{\r\n  margin-left: 50px;\r\n}\r\n\r\n.logoHeader{\r\n  margin-top: -50px;\r\n}\r\n\r\n.logoRequire{\r\n  margin-left: 450px;\r\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -6268,7 +6268,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 exports.i(__webpack_require__(/*! -!../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/postcss-loader/src??ref--6-2!./home.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/css/home.css"), "");
 
 // module
-exports.push([module.i, ".popupContainer{\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  margin: auto;\n  background-color: rgba(0,0,0, 0.5);\n  height: 400px;\n  width: 600px;\n}\n\n.popup{\n  position: absolute;\n  left: 25%;\n  right: 25%;\n  top: 25%;\n  bottom: 25%;\n  margin: auto;\n  background: gray;\n}\n\n", ""]);
+exports.push([module.i, ".popupContainer{\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  margin: auto;\n  background-color: rgba(192, 192, 192, 0.075);\n  height: 900px;\n  width: 2000px;\n}\n\n.popup{\n  position: absolute;\n  left: 25%;\n  right: 25%;\n  top: 25%;\n  bottom: 25%;\n  margin: auto;\n  background: gray;\n}\n\n.bClose{\n  float: right;\n}\n\n", ""]);
 
 // exports
 
@@ -62521,7 +62521,8 @@ function (_Component) {
       var _this3 = this;
 
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "container"
+        className: "container",
+        ref: this.background
       }, this.state.movies.map(function (movie) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: "poster"
@@ -62553,8 +62554,7 @@ function (_Component) {
           value: "Details",
           onClick: _this3.togglePopup.bind(_this3)
         }), _this3.state.showPopup ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Popup__WEBPACK_IMPORTED_MODULE_4__["default"], {
-          closePopup: _this3.togglePopup.bind(_this3),
-          style: 'background-color:red;'
+          closePopup: _this3.togglePopup.bind(_this3)
         }) : null))));
       })));
     }
@@ -62633,7 +62633,12 @@ function (_Component) {
         className: "popupContainer"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "popup"
-      }, "hola jeje"));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+        type: "button",
+        className: "bClose",
+        value: "close",
+        onClick: this.props.closePopup
+      }))));
     }
   }]);
 

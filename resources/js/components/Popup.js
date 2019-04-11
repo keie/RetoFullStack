@@ -12,7 +12,14 @@ export default class Popup extends Component {
 
               <div className="popupContainer">
                 <div className="popup">
-                  hola jeje
+                  <div>
+                    <input
+                      type="button"
+                      className="bClose"
+                      value="close"
+                      onClick={this.props.closePopup}
+                    />
+                  </div>
                 </div>
               </div>
 

@@ -7,9 +7,9 @@
   right: 0;
   bottom: 0;
   margin: auto;
-  background-color: rgba(0,0,0, 0.5);
-  height: 400px;
-  width: 600px;
+  background-color: rgba(192, 192, 192, 0.075);
+  height: 900px;
+  width: 2000px;
 }
 
 .popup{
@@ -20,5 +20,9 @@
   bottom: 25%;
   margin: auto;
   background: gray;
+}
+
+.bClose{
+  float: right;
 }
 

@@ -9,11 +9,12 @@ export default class Home extends Component {
 
     constructor(){
       super();
+      
       this.state={
         movies:[],
         showPopup: false
       }
-
+      
     }
 
     componentWillMount(){
@@ -25,19 +26,20 @@ export default class Home extends Component {
               console.log(errors);
       })
     }
+    
     togglePopup() {
       this.setState({
         showPopup: !this.state.showPopup
       });
     }
-
+    
     
     render() {
 
         return (
           <div >
           
-            <div className="container">
+            <div className="container" ref={this.background}>
 
               {
 
@@ -65,9 +67,7 @@ export default class Home extends Component {
                           <input className="buttonDetail" type="button" value="Details" onClick={this.togglePopup.bind(this)}/>
                           
                           {this.state.showPopup ? 
-                            
-                            <Popup closePopup={this.togglePopup.bind(this)} style={'background-color:red;'}/>
-                            
+                            <Popup closePopup={this.togglePopup.bind(this)} />
                             : null
                           }
                           
