@@ -19,10 +19,105 @@
   top: 25%;
   bottom: 25%;
   margin: auto;
-  background: gray;
+  background: #EDE5E5;
 }
 
 .bClose{
   float: right;
 }
 
+.fullImage {
+  display: flex;
+  z-index: -1;
+}
+
+.fullDescription{
+  padding: 20px;
+  margin-top: 220px;
+  text-align: justify;
+  font-family: GothamRounded;
+  font-size: 16px;
+}
+
+.bigContainer{
+  background-color: white;
+  height: 180px;
+  width: 600px;
+  margin-top: 20px;
+  margin-left: 210px;
+  position: absolute;
+}
+
+@font-face {
+  font-family: GothamMedium;
+  src: url(../../../Font/GothamRounded-Medium.ttf);
+}
+@font-face {
+  font-family: GothamRounded;
+  src: url(../../../Font/GothamRounded-Book.ttf);
+}
+@font-face {
+  font-family: GothamRounded;
+  src: url(../../../Font/GothamRounded-Book.ttf);
+}
+
+.titleDiv{
+  color: #212525;
+  font-size: 23px;
+  font-family: GothamMedium;
+  padding: 5px;
+  margin-left: 10px;
+  border-bottom: black 1px solid;
+  
+}
+.previewDiv{
+  font-family: GothamRounded;
+  font-size: 14px;
+  color:#F59F00;
+  margin-left: 20px;
+  display: flex;
+  
+  
+}
+.idiomDiv{
+  font-family: GothamMedium;
+  font-size: 14px;
+  color: #212529;
+  background: #A9A9A9;
+  margin-left: 343px;
+  padding: 4px;
+}
+
+.iconsDiv{
+  padding: 8px;
+  display: flex;
+}
+
+.heart{
+  display: flex;
+}
+.star{
+  display: flex;
+}
+
+.heartSon{
+  
+}
+.nameIcon{
+  margin-top: -7px;
+}
+
+.nameIcon{
+  color:#D7CFCF;
+  font-size: 16px;
+  margin-left: -20px;
+}
+.nameIconP{
+  color:#D7CFCF;
+  font-size: 16px;
+  margin-left: -25px;
+}
+
+.iconsDiv>div{
+  padding-left: 40px;
+}

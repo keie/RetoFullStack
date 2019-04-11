@@ -6572,12 +6572,13 @@ exports.push([module.i, ".footerPoster{\r\n  background-color: white;\r\n}\r\n\r
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+var escape = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
 exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 exports.i(__webpack_require__(/*! -!../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/postcss-loader/src??ref--6-2!./home.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/css/home.css"), "");
 
 // module
-exports.push([module.i, ".popupContainer{\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  margin: auto;\n  background-color: rgba(192, 192, 192, 0.075);\n  height: 900px;\n  width: 2000px;\n}\n\n.popup{\n  position: absolute;\n  left: 25%;\n  right: 25%;\n  top: 25%;\n  bottom: 25%;\n  margin: auto;\n  background: gray;\n}\n\n.bClose{\n  float: right;\n}\n\n", ""]);
+exports.push([module.i, ".popupContainer{\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  margin: auto;\n  background-color: rgba(192, 192, 192, 0.075);\n  height: 900px;\n  width: 2000px;\n}\n\n.popup{\n  position: absolute;\n  left: 25%;\n  right: 25%;\n  top: 25%;\n  bottom: 25%;\n  margin: auto;\n  background: #EDE5E5;\n}\n\n.bClose{\n  float: right;\n}\n\n.fullImage {\n  display: flex;\n  z-index: -1;\n}\n\n.fullDescription{\n  padding: 20px;\n  margin-top: 220px;\n  text-align: justify;\n  font-family: GothamRounded;\n  font-size: 16px;\n}\n\n.bigContainer{\n  background-color: white;\n  height: 180px;\n  width: 600px;\n  margin-top: 20px;\n  margin-left: 210px;\n  position: absolute;\n}\n\n@font-face {\n  font-family: GothamMedium;\n  src: url(" + escape(__webpack_require__(/*! ../../../Font/GothamRounded-Medium.ttf */ "./resources/Font/GothamRounded-Medium.ttf")) + ");\n}\n@font-face {\n  font-family: GothamRounded;\n  src: url(" + escape(__webpack_require__(/*! ../../../Font/GothamRounded-Book.ttf */ "./resources/Font/GothamRounded-Book.ttf")) + ");\n}\n@font-face {\n  font-family: GothamRounded;\n  src: url(" + escape(__webpack_require__(/*! ../../../Font/GothamRounded-Book.ttf */ "./resources/Font/GothamRounded-Book.ttf")) + ");\n}\n\n.titleDiv{\n  color: #212525;\n  font-size: 23px;\n  font-family: GothamMedium;\n  padding: 5px;\n  margin-left: 10px;\n  border-bottom: black 1px solid;\n  \n}\n.previewDiv{\n  font-family: GothamRounded;\n  font-size: 14px;\n  color:#F59F00;\n  margin-left: 20px;\n  display: flex;\n  \n  \n}\n.idiomDiv{\n  font-family: GothamMedium;\n  font-size: 14px;\n  color: #212529;\n  background: #A9A9A9;\n  margin-left: 343px;\n  padding: 4px;\n}\n\n.iconsDiv{\n  padding: 8px;\n  display: flex;\n}\n\n.heart{\n  display: flex;\n}\n.star{\n  display: flex;\n}\n\n.heartSon{\n  \n}\n.nameIcon{\n  margin-top: -7px;\n}\n\n.nameIcon{\n  color:#D7CFCF;\n  font-size: 16px;\n  margin-left: -20px;\n}\n.nameIconP{\n  color:#D7CFCF;\n  font-size: 16px;\n  margin-left: -25px;\n}\n\n.iconsDiv>div{\n  padding-left: 40px;\n}", ""]);
 
 // exports
 
@@ -6666,6 +6667,33 @@ function toComment(sourceMap) {
 	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
 
 	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/lib/url/escape.js":
+/*!***************************************************!*\
+  !*** ./node_modules/css-loader/lib/url/escape.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function escape(url) {
+    if (typeof url !== 'string') {
+        return url
+    }
+    // If url is already wrapped in quotes, remove them
+    if (/^['"].*['"]$/.test(url)) {
+        url = url.slice(1, -1);
+    }
+    // Should url be wrapped?
+    // See https://drafts.csswg.org/css-values-3/#urls
+    if (/["'() \t\n]/.test(url)) {
+        return '"' + url.replace(/"/g, '\\"').replace(/\n/g, '\\n') + '"'
+    }
+
+    return url
 }
 
 
@@ -66035,6 +66063,28 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./resources/Font/GothamRounded-Book.ttf":
+/*!***********************************************!*\
+  !*** ./resources/Font/GothamRounded-Book.ttf ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/fonts/GothamRounded-Book.ttf?0d8790e5b19cd22018e557c8bb26e4eb";
+
+/***/ }),
+
+/***/ "./resources/Font/GothamRounded-Medium.ttf":
+/*!*************************************************!*\
+  !*** ./resources/Font/GothamRounded-Medium.ttf ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/fonts/GothamRounded-Medium.ttf?8ce9986f8ee44002ca43b37d343aa823";
+
+/***/ }),
+
 /***/ "./resources/images/facebook.png":
 /*!***************************************!*\
   !*** ./resources/images/facebook.png ***!
@@ -66043,6 +66093,17 @@ module.exports = function(module) {
 /***/ (function(module, exports) {
 
 module.exports = "/images/facebook.png?2522f2ecd5000eff9bee1165cff14634";
+
+/***/ }),
+
+/***/ "./resources/images/heart.png":
+/*!************************************!*\
+  !*** ./resources/images/heart.png ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/heart.png?ef80e5746956337f895cc7cd2690a003";
 
 /***/ }),
 
@@ -66076,6 +66137,17 @@ module.exports = "/images/logoTheMovieDb.png?9b3f9c24d9fd5f297ae433eb33d93514";
 /***/ (function(module, exports) {
 
 module.exports = "/images/magnifier.png?b9fff90909ad7509cc86fa650fd2ca2e";
+
+/***/ }),
+
+/***/ "./resources/images/popularity.png":
+/*!*****************************************!*\
+  !*** ./resources/images/popularity.png ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/popularity.png?cf09340751ea04c4bb551aa25519c0ef";
 
 /***/ }),
 
@@ -66742,15 +66814,50 @@ function (_Component) {
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: "popup"
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-          type: "button",
+          type: "image",
           className: "bClose",
-          value: "close",
+          src: "../../images/cancel.png",
+          alt: "Submit",
           onClick: this.props.closePopup
-        })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "fullImage"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
           src: this.state.fullDescription.wallpaper,
           height: "450px",
           width: "320px"
-        }))));
+        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "bigContainer"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "titleDiv"
+        }, this.state.fullDescription.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "previewDiv"
+        }, this.state.fullDescription.preview, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "idiomDiv"
+        }, this.state.fullDescription.language)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "iconsDiv"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "heart"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+          src: __webpack_require__(/*! ../../images/heart.png */ "./resources/images/heart.png"),
+          height: "30px"
+        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "heartSon"
+        }, this.state.fullDescription.rating, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "nameIcon"
+        }, "rating"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "star"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+          src: __webpack_require__(/*! ../../images/popularity.png */ "./resources/images/popularity.png"),
+          height: "30px"
+        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "popularitySon"
+        }, this.state.fullDescription.popularity, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "nameIconP"
+        }, "popularity"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "hand"
+        }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "fullDescription"
+        }, this.state.fullDescription.description))));
       } else {
         return null;
       }

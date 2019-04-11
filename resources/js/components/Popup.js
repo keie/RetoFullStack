@@ -28,15 +28,58 @@ export default class Popup extends Component {
                 <div className="popup">
                   <div>
                     <input
-                      type="button"
+                      type="image"
                       className="bClose"
-                      value="close"
+                      src="../../images/cancel.png"
+                      alt="Submit"
                       onClick={this.props.closePopup}
                     />
                   </div>
-                  <div>
+                  <div className="fullImage">
                     <img src={this.state.fullDescription.wallpaper} height="450px" width="320px"/>
+                    <div className="bigContainer">
+                        <div className="titleDiv">
+                          {this.state.fullDescription.title}
+                        </div>
+                        <div className="previewDiv">
+                          {this.state.fullDescription.preview}
+                          <div className="idiomDiv">
+                            {this.state.fullDescription.language}
+                          </div>
+
+                        </div>
+                        <div className="iconsDiv">
+                          
+                          <div className="heart">
+                            <img src={require('../../images/heart.png')} height="30px"/>
+                            <div className="heartSon">
+                              {this.state.fullDescription.rating}
+                              <div className="nameIcon">
+                                {"rating"}
+                              </div>
+                              
+                            </div>
+                          </div>
+                          
+                          <div className="star">
+                          <img src={require('../../images/popularity.png')} height="30px"/> 
+                          <div className="popularitySon">
+                            {this.state.fullDescription.popularity} 
+                            <div className="nameIconP">
+                              {"popularity"}
+                            </div>
+                          </div>  
+                          </div>
+                          <div className="hand">
+
+                          </div>
+                        </div>
+                    </div>
+                    <div className="fullDescription">
+                      {this.state.fullDescription.description}
+                    </div>
                   </div>
+                  
                 </div>
               </div>
 
