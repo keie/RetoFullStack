@@ -51,7 +51,9 @@ export default class Popup extends Component {
                         <div className="iconsDiv">
                           
                           <div className="heart">
-                            <img src={require('../../images/heart.png')} height="30px"/>
+                            <div>
+                              <img src={require('../../images/heart.png')} height="30px"/>
+                            </div>
                             <div className="heartSon">
                               {this.state.fullDescription.rating}
                               <div className="nameIcon">
@@ -62,21 +64,36 @@ export default class Popup extends Component {
                           </div>
                           
                           <div className="star">
-                          <img src={require('../../images/popularity.png')} height="30px"/> 
-                          <div className="popularitySon">
-                            {this.state.fullDescription.popularity} 
-                            <div className="nameIconP">
-                              {"popularity"}
-                            </div>
-                          </div>  
+                            <img src={require('../../images/popularity.png')} height="30px"/> 
+                            <div className="popularitySon">
+                              {this.state.fullDescription.popularity} 
+                              <div className="nameIconP">
+                                {"popularity"}
+                              </div>
+                            </div>  
                           </div>
                           <div className="hand">
-
+                            <img src={require('../../images/votes.png')} height="30px"/>
+                            <div className="handSon">
+                              {this.state.fullDescription.vote}
+                              <div className="nameIconH">
+                                {"votes"}
+                              </div>
+                            </div>
                           </div>
                         </div>
                     </div>
                     <div className="fullDescription">
                       {this.state.fullDescription.description}
+                    </div>
+                    <div className="premiere">
+                    <div className="calendarIcon">
+                        <img src={require('../../images/calendar.png')} height="30px"/>
+                      </div>
+                      <div className="date">
+                        {this.state.fullDescription.premiere}
+                      </div>
+                      
                     </div>
                   </div>
                   

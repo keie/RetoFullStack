@@ -6578,7 +6578,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 exports.i(__webpack_require__(/*! -!../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/postcss-loader/src??ref--6-2!./home.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/css/home.css"), "");
 
 // module
-exports.push([module.i, ".popupContainer{\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  margin: auto;\n  background-color: rgba(192, 192, 192, 0.075);\n  height: 900px;\n  width: 2000px;\n}\n\n.popup{\n  position: absolute;\n  left: 25%;\n  right: 25%;\n  top: 25%;\n  bottom: 25%;\n  margin: auto;\n  background: #EDE5E5;\n}\n\n.bClose{\n  float: right;\n}\n\n.fullImage {\n  display: flex;\n  z-index: -1;\n}\n\n.fullDescription{\n  padding: 20px;\n  margin-top: 220px;\n  text-align: justify;\n  font-family: GothamRounded;\n  font-size: 16px;\n}\n\n.bigContainer{\n  background-color: white;\n  height: 180px;\n  width: 600px;\n  margin-top: 20px;\n  margin-left: 210px;\n  position: absolute;\n}\n\n@font-face {\n  font-family: GothamMedium;\n  src: url(" + escape(__webpack_require__(/*! ../../../Font/GothamRounded-Medium.ttf */ "./resources/Font/GothamRounded-Medium.ttf")) + ");\n}\n@font-face {\n  font-family: GothamRounded;\n  src: url(" + escape(__webpack_require__(/*! ../../../Font/GothamRounded-Book.ttf */ "./resources/Font/GothamRounded-Book.ttf")) + ");\n}\n@font-face {\n  font-family: GothamRounded;\n  src: url(" + escape(__webpack_require__(/*! ../../../Font/GothamRounded-Book.ttf */ "./resources/Font/GothamRounded-Book.ttf")) + ");\n}\n\n.titleDiv{\n  color: #212525;\n  font-size: 23px;\n  font-family: GothamMedium;\n  padding: 5px;\n  margin-left: 10px;\n  border-bottom: black 1px solid;\n  \n}\n.previewDiv{\n  font-family: GothamRounded;\n  font-size: 14px;\n  color:#F59F00;\n  margin-left: 20px;\n  display: flex;\n  \n  \n}\n.idiomDiv{\n  font-family: GothamMedium;\n  font-size: 14px;\n  color: #212529;\n  background: #A9A9A9;\n  margin-left: 343px;\n  padding: 4px;\n}\n\n.iconsDiv{\n  padding: 8px;\n  display: flex;\n}\n\n.heart{\n  display: flex;\n}\n.star{\n  display: flex;\n}\n\n.heartSon{\n  \n}\n.nameIcon{\n  margin-top: -7px;\n}\n\n.nameIcon{\n  color:#D7CFCF;\n  font-size: 16px;\n  margin-left: -20px;\n}\n.nameIconP{\n  color:#D7CFCF;\n  font-size: 16px;\n  margin-left: -25px;\n}\n\n.iconsDiv>div{\n  padding-left: 40px;\n}", ""]);
+exports.push([module.i, ".popupContainer{\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  margin: auto;\n  background-color: rgba(192, 192, 192, 0.075);\n  height: 900px;\n  width: 2000px;\n}\n\n.popup{\n  position: absolute;\n  left: 25%;\n  right: 25%;\n  top: 25%;\n  bottom: 25%;\n  margin: auto;\n  background: #EDE5E5;\n}\n\n.bClose{\n  float: right;\n}\n\n.fullImage {\n  display: flex;\n  z-index: -1;\n}\n\n.fullDescription{\n  padding: 20px;\n  margin-top: 220px;\n  text-align: justify;\n  font-family: GothamRounded;\n  font-size: 16px;\n}\n\n.bigContainer{\n  background-color: white;\n  height: 180px;\n  width: 600px;\n  margin-top: 20px;\n  margin-left: 210px;\n  position: absolute;\n}\n\n@font-face {\n  font-family: GothamMedium;\n  src: url(" + escape(__webpack_require__(/*! ../../../Font/GothamRounded-Medium.ttf */ "./resources/Font/GothamRounded-Medium.ttf")) + ");\n}\n@font-face {\n  font-family: GothamRounded;\n  src: url(" + escape(__webpack_require__(/*! ../../../Font/GothamRounded-Book.ttf */ "./resources/Font/GothamRounded-Book.ttf")) + ");\n}\n@font-face {\n  font-family: GothamRounded;\n  src: url(" + escape(__webpack_require__(/*! ../../../Font/GothamRounded-Book.ttf */ "./resources/Font/GothamRounded-Book.ttf")) + ");\n}\n\n.titleDiv{\n  color: #212525;\n  font-size: 23px;\n  font-family: GothamMedium;\n  padding: 5px;\n  margin-left: 10px;\n  border-bottom: black 1px solid;\n  \n}\n.previewDiv{\n  font-family: GothamRounded;\n  font-size: 14px;\n  color:#F59F00;\n  margin-left: 20px;\n  display: flex;\n  padding: 3px;\n  \n}\n.idiomDiv{\n  font-family: GothamMedium;\n  font-size: 14px;\n  color: #212529;\n  background: #A9A9A9;\n  margin-left: 315px;\n  padding: 10px;\n}\n\n.iconsDiv{\n  padding: 8px;\n  display: flex;\n}\n\n.heart{\n  display: flex;\n}\n.heart>div{\n  padding-left: 4px;\n}\n.star{\n  display: flex;\n}\n.hand{\n  display: flex;\n}\n.heartSon{\n  \n}\n.nameIcon{\n  margin-top: -7px;\n}\n\n.nameIcon{\n  color:#D7CFCF;\n  font-size: 16px;\n  margin-left: -20px;\n  padding-top: 5px;\n}\n.nameIconP{\n  color:#D7CFCF;\n  font-size: 16px;\n  margin-left: -25px;\n  \n}\n.nameIconH{\n  color:#D7CFCF;\n  font-size: 16px;\n  margin-left: -25px;\n}\n.iconsDiv>div{\n  padding-left: 40px;\n}\n\n.premiere{\n  background-color: #21462F;\n  height: 50px;\n  width: 180px;\n  position: absolute;\n  right:0;\n  bottom:0;\n  font-family: GothamMedium;\n  font-size: 18px;\n  color:#FFFF;\n  padding: 10px;\n  display: flex;\n}\n\n.premiere>div{\n  padding-left: 10px;\n}\n\n.calendarIcon{\n  left: 0;\n}", ""]);
 
 // exports
 
@@ -66085,6 +66085,17 @@ module.exports = "/fonts/GothamRounded-Medium.ttf?8ce9986f8ee44002ca43b37d343aa8
 
 /***/ }),
 
+/***/ "./resources/images/calendar.png":
+/*!***************************************!*\
+  !*** ./resources/images/calendar.png ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/calendar.png?273cc1dd77b525b05a171a52f7d147a5";
+
+/***/ }),
+
 /***/ "./resources/images/facebook.png":
 /*!***************************************!*\
   !*** ./resources/images/facebook.png ***!
@@ -66170,6 +66181,17 @@ module.exports = "/images/rating.png?9eb9bf6ace2f75efbc337d806a616c40";
 /***/ (function(module, exports) {
 
 module.exports = "/images/twitter.png?5ccb6ff5046db094686853cba626edbe";
+
+/***/ }),
+
+/***/ "./resources/images/votes.png":
+/*!************************************!*\
+  !*** ./resources/images/votes.png ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/votes.png?4728dafa4d2452f000c87c19ca107cfb";
 
 /***/ }),
 
@@ -66837,10 +66859,10 @@ function (_Component) {
           className: "iconsDiv"
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: "heart"
-        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
           src: __webpack_require__(/*! ../../images/heart.png */ "./resources/images/heart.png"),
           height: "30px"
-        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: "heartSon"
         }, this.state.fullDescription.rating, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: "nameIcon"
@@ -66855,9 +66877,25 @@ function (_Component) {
           className: "nameIconP"
         }, "popularity"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: "hand"
-        }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+          src: __webpack_require__(/*! ../../images/votes.png */ "./resources/images/votes.png"),
+          height: "30px"
+        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "handSon"
+        }, this.state.fullDescription.vote, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "nameIconH"
+        }, "votes"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: "fullDescription"
-        }, this.state.fullDescription.description))));
+        }, this.state.fullDescription.description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "premiere"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "calendarIcon"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+          src: __webpack_require__(/*! ../../images/calendar.png */ "./resources/images/calendar.png"),
+          height: "30px"
+        })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "date"
+        }, this.state.fullDescription.premiere)))));
       } else {
         return null;
       }

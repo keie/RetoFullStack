@@ -76,7 +76,7 @@
   color:#F59F00;
   margin-left: 20px;
   display: flex;
-  
+  padding: 3px;
   
 }
 .idiomDiv{
@@ -84,8 +84,8 @@
   font-size: 14px;
   color: #212529;
   background: #A9A9A9;
-  margin-left: 343px;
-  padding: 4px;
+  margin-left: 315px;
+  padding: 10px;
 }
 
 .iconsDiv{
@@ -96,10 +96,15 @@
 .heart{
   display: flex;
 }
+.heart>div{
+  padding-left: 4px;
+}
 .star{
   display: flex;
 }
-
+.hand{
+  display: flex;
+}
 .heartSon{
   
 }
@@ -111,13 +116,41 @@
   color:#D7CFCF;
   font-size: 16px;
   margin-left: -20px;
+  padding-top: 5px;
 }
 .nameIconP{
   color:#D7CFCF;
   font-size: 16px;
   margin-left: -25px;
+  
 }
-
+.nameIconH{
+  color:#D7CFCF;
+  font-size: 16px;
+  margin-left: -25px;
+}
 .iconsDiv>div{
   padding-left: 40px;
+}
+
+.premiere{
+  background-color: #21462F;
+  height: 50px;
+  width: 180px;
+  position: absolute;
+  right:0;
+  bottom:0;
+  font-family: GothamMedium;
+  font-size: 18px;
+  color:#FFFF;
+  padding: 10px;
+  display: flex;
+}
+
+.premiere>div{
+  padding-left: 10px;
+}
+
+.calendarIcon{
+  left: 0;
 }
