@@ -6558,7 +6558,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Nunito);", ""]);
 
 // module
-exports.push([module.i, ".footerPoster{\r\n  background-color: white;\r\n}\r\n\r\nbody{\r\n  background-color: #1E1D1D;\r\n  width: 230px;\r\n  padding-top: 30px;\r\n\r\n\r\n\r\n}\r\n\r\n.body>poster{\r\n  justify-content: center;\r\n}\r\n\r\n.poster{\r\n  margin-left: 15px;\r\n  margin-top: 15px;\r\n}\r\n\r\n.container{\r\n  display: grid;\r\n  flex-wrap: nowrap;\r\n   grid-template-columns: 215px 215px 215px 215px 215px;\r\n   padding: 30px;\r\n   margin-left: 90px;\r\n   margin-top: 50px;\r\n   z-index: 1;\r\n}\r\n\r\n.row{\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n}\r\n\r\n.buttonDetail{\r\n  background-color: #FAB005;\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 14px;\r\n  float: right;\r\n\r\n}\r\n\r\n.title{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 16px;\r\n}\r\n\r\n.preview{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 13px;\r\n  color: #FAB005;\r\n}\r\n\r\n.rating{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 21px;\r\n  color: #212529;\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n}\r\n\r\n.wallpaper>img{\r\n  width:200px;\r\n  height: 250px;\r\n}\r\n.thirdR{\r\n  margin-left: 50px;\r\n  right:0;\r\n}\r\n\r\n.logoHeader{\r\n  margin-top: -50px;\r\n}\r\n\r\n.logoRequire{\r\n  margin-left: 450px;\r\n}\r\n\r\n", ""]);
+exports.push([module.i, ".footerPoster{\r\n  background-color: white;\r\n}\r\n\r\nbody{\r\n  background-color: #1E1D1D;\r\n  width: 230px;\r\n  padding-top: 30px;\r\n\r\n\r\n\r\n}\r\n\r\n.body>poster{\r\n  justify-content: center;\r\n}\r\n\r\n.poster{\r\n  margin-left: 15px;\r\n  margin-top: 15px;\r\n}\r\n\r\n.container{\r\n  display: grid;\r\n  flex-wrap: nowrap;\r\n   grid-template-columns: 215px 215px 215px 215px 215px;\r\n   padding: 30px;\r\n   margin-left: 90px;\r\n   margin-top: 50px;\r\n   z-index: 1;\r\n}\r\n\r\n.row{\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n}\r\n\r\n.buttonDetail{\r\n  background-color: #FAB005;\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 14px;\r\n  float: right;\r\n\r\n}\r\n\r\n.title{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 16px;\r\n}\r\n\r\n.preview{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 13px;\r\n  color: #FAB005;\r\n}\r\n\r\n.rating{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 21px;\r\n  color: #212529;\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n}\r\n\r\n.wallpaper>img{\r\n  width:200px;\r\n  height: 250px;\r\n}\r\n.thirdR{\r\n  margin-left: 50px;\r\n  right:0;\r\n}\r\n\r\n.logoHeader{\r\n  margin-top: -50px;\r\n}\r\n\r\n.logoRequire{\r\n  margin-left: 450px;\r\n}\r\n\r\n.pages{\r\n  \r\n  position: absolute;\r\n\t\t/*nos posicionamos en el centro del navegador*/\r\n\t\t\r\n\t\tleft:50%;\r\n\t\t/*determinamos una anchura*/\r\n\t\twidth:400px;\r\n\t\t/*indicamos que el margen izquierdo, es la mitad de la anchura*/\r\n\t\tmargin-left:-200px;\r\n\t\t/*determinamos una altura*/\r\n\t\theight:100px;\r\n\t\t/*indicamos que el margen superior, es la mitad de la altura*/\r\n\t\t\r\n\t\t/*border:1px solid #808080;*/\r\n\t\tpadding:5px;\r\n}\r\n\r\n.pageNumbers{\r\n  margin-right: 0.3em;\r\n  color: white;\r\n  -webkit-user-select: none;\r\n     -moz-user-select: none;\r\n      -ms-user-select: none;\r\n          user-select: none;\r\n  cursor: pointer;\r\n  list-style: none;\r\n  display: flex;\r\n  padding:20px;\r\n  justify-content: center;\r\n}\r\n\r\n.pageNumbers{\r\n  padding-left: 12px;\r\n}\r\n\r\n.iconPage{\r\n  border: 1px solid #808080;\r\n  padding: 20px;\r\n  border-radius: 100px;\r\n  \r\n  text-align: center;\r\n  width: 70px;\r\n  }\r\n  .iconPage:active ~.iconPage{\r\n    background-color: red;\r\n  }", ""]);
 
 // exports
 
@@ -66640,9 +66640,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
@@ -66668,12 +66668,23 @@ function (_Component) {
     _this = _possibleConstructorReturn(this, _getPrototypeOf(Home).call(this));
     _this.state = {
       movies: [],
-      showPopup: false
+      showPopup: false,
+      currentPage: 1,
+      allPerPage: 10
     };
+    _this.handleClick = _this.handleClick.bind(_assertThisInitialized(_this));
     return _this;
   }
 
   _createClass(Home, [{
+    key: "handleClick",
+    value: function handleClick(event) {
+      event.target.clasList = 'background-color: #FFD700';
+      this.setState({
+        currentPage: Number(event.target.id)
+      });
+    }
+  }, {
     key: "componentWillMount",
     value: function componentWillMount() {
       var _this2 = this;
@@ -66700,10 +66711,13 @@ function (_Component) {
     value: function render() {
       var _this3 = this;
 
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "container"
-      }, console.log(this.state.movies.length), this.state.movies.map(function (movie) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      //const {movies,currentPage,allPerPage}=this.state;
+      //logic for displaying current all
+      var indexOfLastAll = this.state.currentPage * this.state.allPerPage;
+      var indexOfFirstAll = indexOfLastAll - this.state.allPerPage;
+      var currentAll = this.state.movies.slice(indexOfFirstAll, indexOfLastAll);
+      var renderAll = currentAll.map(function (movie, index) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: "poster"
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: "wallpaper"
@@ -66735,8 +66749,29 @@ function (_Component) {
         }), _this3.state.showPopup ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Popup__WEBPACK_IMPORTED_MODULE_5__["default"], {
           closePopup: _this3.togglePopup.bind(_this3),
           text: _this3.state.movieId
-        }) : null))));
-      })));
+        }) : null)))), ")");
+      });
+      var pageNumbers = [];
+
+      for (var i = 1; i <= Math.ceil(this.state.movies.length / this.state.allPerPage); i++) {
+        pageNumbers.push(i);
+      }
+
+      var renderPageNumbers = pageNumbers.map(function (number) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          key: number,
+          id: number,
+          onClick: _this3.handleClick,
+          className: "iconPage"
+        }, number);
+      });
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "container"
+      }, renderAll), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pages"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "pageNumbers"
+      }, renderPageNumbers)));
     }
   }]);
 

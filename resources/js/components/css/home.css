@@ -81,3 +81,47 @@ body{
   margin-left: 450px;
 }
 
+.pages{
+  
+  position: absolute;
+		/*nos posicionamos en el centro del navegador*/
+		
+		left:50%;
+		/*determinamos una anchura*/
+		width:400px;
+		/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+		margin-left:-200px;
+		/*determinamos una altura*/
+		height:100px;
+		/*indicamos que el margen superior, es la mitad de la altura*/
+		
+		/*border:1px solid #808080;*/
+		padding:5px;
+}
+
+.pageNumbers{
+  margin-right: 0.3em;
+  color: white;
+  user-select: none;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  padding:20px;
+  justify-content: center;
+}
+
+.pageNumbers{
+  padding-left: 12px;
+}
+
+.iconPage{
+  border: 1px solid #808080;
+  padding: 20px;
+  border-radius: 100px;
+  
+  text-align: center;
+  width: 70px;
+  }
+  .iconPage:active ~.iconPage{
+    background-color: red;
+  }
