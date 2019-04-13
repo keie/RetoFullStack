@@ -14,7 +14,7 @@ export default class Home extends Component {
       this.state={
         movies:[],
         showPopup: false,
-        movieName:'unkNow'
+        
       }
       
     }
@@ -42,11 +42,11 @@ export default class Home extends Component {
 
         return (
           <div >
-          
-            <div className="container" ref={this.background}>
-
+            
+            <div className="container" >
+            {console.log(this.state.movies.length)}
               {
-
+                
                 this.state.movies.map(movie=>
 
                   <div className="poster" >
