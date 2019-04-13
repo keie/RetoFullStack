@@ -66688,11 +66688,11 @@ function (_Component) {
     }
   }, {
     key: "togglePopup",
-    value: function togglePopup(movieName) {
-      var nameMovie = movieName;
+    value: function togglePopup(movieId) {
+      var idMovie = movieId;
       this.setState({
         showPopup: !this.state.showPopup,
-        movieName: nameMovie
+        movieId: idMovie
       });
     }
   }, {
@@ -66734,7 +66734,7 @@ function (_Component) {
           onClick: _this3.togglePopup.bind(_this3, movie.id)
         }), _this3.state.showPopup ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Popup__WEBPACK_IMPORTED_MODULE_5__["default"], {
           closePopup: _this3.togglePopup.bind(_this3),
-          text: _this3.state.movieName
+          text: _this3.state.movieId
         }) : null))));
       })));
     }

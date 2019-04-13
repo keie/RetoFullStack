@@ -29,11 +29,11 @@ export default class Home extends Component {
       })
     }
     
-    togglePopup(movieName) {
-      const nameMovie=movieName;
+    togglePopup(movieId) {
+      const idMovie=movieId;
       this.setState({
         showPopup: !this.state.showPopup,
-        movieName:nameMovie
+        movieId:idMovie
       });
     }
     
@@ -72,7 +72,7 @@ export default class Home extends Component {
                           
                           
                           {this.state.showPopup ? 
-                            <Popup closePopup={this.togglePopup.bind(this)} text={this.state.movieName}/>
+                            <Popup closePopup={this.togglePopup.bind(this)} text={this.state.movieId}/>
                             : null
                           }
                           
