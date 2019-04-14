@@ -10,12 +10,16 @@
   background-color: rgba(192, 192, 192, 0.075);
   height: 900px;
   width: 2000px;
+
+
+
+  
 }
 
 .popup{
   position: absolute;
-  left: 25%;
-  right: 25%;
+  left: 15%;
+  right: 30%;
   top: 25%;
   bottom: 25%;
   margin: auto;
@@ -46,6 +50,9 @@
   margin-top: 20px;
   margin-left: 210px;
   position: absolute;
+
+
+  
 }
 
 @font-face {

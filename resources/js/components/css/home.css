@@ -2,6 +2,9 @@
 
 .footerPoster{
   background-color: white;
+  padding: 4px;
+  height: 80px;
+
 }
 
 body{
@@ -71,7 +74,12 @@ body{
 .thirdR{
   margin-left: 50px;
   right:0;
-}
+  margin-top:-24px;
+  }
+  .thirdR>input{
+    outline: none;
+    border:0;
+    }
 
 .logoHeader{
   margin-top: -50px;
@@ -114,7 +122,7 @@ body{
   padding-left: 12px;
 }
 
-.iconPage{
+.pageNumbers>div{
   border: 1px solid #808080;
   padding: 20px;
   border-radius: 100px;
@@ -122,6 +130,4 @@ body{
   text-align: center;
   width: 70px;
   }
-  .iconPage:active ~.iconPage{
-    background-color: red;
-  }
+  

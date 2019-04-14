@@ -6558,7 +6558,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Nunito);", ""]);
 
 // module
-exports.push([module.i, ".footerPoster{\r\n  background-color: white;\r\n}\r\n\r\nbody{\r\n  background-color: #1E1D1D;\r\n  width: 230px;\r\n  padding-top: 30px;\r\n\r\n\r\n\r\n}\r\n\r\n.body>poster{\r\n  justify-content: center;\r\n}\r\n\r\n.poster{\r\n  margin-left: 15px;\r\n  margin-top: 15px;\r\n}\r\n\r\n.container{\r\n  display: grid;\r\n  flex-wrap: nowrap;\r\n   grid-template-columns: 215px 215px 215px 215px 215px;\r\n   padding: 30px;\r\n   margin-left: 90px;\r\n   margin-top: 50px;\r\n   z-index: 1;\r\n}\r\n\r\n.row{\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n}\r\n\r\n.buttonDetail{\r\n  background-color: #FAB005;\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 14px;\r\n  float: right;\r\n\r\n}\r\n\r\n.title{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 16px;\r\n}\r\n\r\n.preview{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 13px;\r\n  color: #FAB005;\r\n}\r\n\r\n.rating{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 21px;\r\n  color: #212529;\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n}\r\n\r\n.wallpaper>img{\r\n  width:200px;\r\n  height: 250px;\r\n}\r\n.thirdR{\r\n  margin-left: 50px;\r\n  right:0;\r\n}\r\n\r\n.logoHeader{\r\n  margin-top: -50px;\r\n}\r\n\r\n.logoRequire{\r\n  margin-left: 450px;\r\n}\r\n\r\n.pages{\r\n  \r\n  position: absolute;\r\n\t\t/*nos posicionamos en el centro del navegador*/\r\n\t\t\r\n\t\tleft:50%;\r\n\t\t/*determinamos una anchura*/\r\n\t\twidth:400px;\r\n\t\t/*indicamos que el margen izquierdo, es la mitad de la anchura*/\r\n\t\tmargin-left:-200px;\r\n\t\t/*determinamos una altura*/\r\n\t\theight:100px;\r\n\t\t/*indicamos que el margen superior, es la mitad de la altura*/\r\n\t\t\r\n\t\t/*border:1px solid #808080;*/\r\n\t\tpadding:5px;\r\n}\r\n\r\n.pageNumbers{\r\n  margin-right: 0.3em;\r\n  color: white;\r\n  -webkit-user-select: none;\r\n     -moz-user-select: none;\r\n      -ms-user-select: none;\r\n          user-select: none;\r\n  cursor: pointer;\r\n  list-style: none;\r\n  display: flex;\r\n  padding:20px;\r\n  justify-content: center;\r\n}\r\n\r\n.pageNumbers{\r\n  padding-left: 12px;\r\n}\r\n\r\n.iconPage{\r\n  border: 1px solid #808080;\r\n  padding: 20px;\r\n  border-radius: 100px;\r\n  \r\n  text-align: center;\r\n  width: 70px;\r\n  }\r\n  .iconPage:active ~.iconPage{\r\n    background-color: red;\r\n  }", ""]);
+exports.push([module.i, ".footerPoster{\r\n  background-color: white;\r\n  padding: 4px;\r\n  height: 80px;\r\n\r\n}\r\n\r\nbody{\r\n  background-color: #1E1D1D;\r\n  width: 230px;\r\n  padding-top: 30px;\r\n\r\n\r\n\r\n}\r\n\r\n.body>poster{\r\n  justify-content: center;\r\n}\r\n\r\n.poster{\r\n  margin-left: 15px;\r\n  margin-top: 15px;\r\n}\r\n\r\n.container{\r\n  display: grid;\r\n  flex-wrap: nowrap;\r\n   grid-template-columns: 215px 215px 215px 215px 215px;\r\n   padding: 30px;\r\n   margin-left: 90px;\r\n   margin-top: 50px;\r\n   z-index: 1;\r\n}\r\n\r\n.row{\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n}\r\n\r\n.buttonDetail{\r\n  background-color: #FAB005;\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 14px;\r\n  float: right;\r\n\r\n}\r\n\r\n.title{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 16px;\r\n}\r\n\r\n.preview{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 13px;\r\n  color: #FAB005;\r\n}\r\n\r\n.rating{\r\n  font-family: 'Nunito', sans-serif;\r\n  font-size: 21px;\r\n  color: #212529;\r\n  display: flex;\r\n  flex-wrap: nowrap;\r\n}\r\n\r\n.wallpaper>img{\r\n  width:200px;\r\n  height: 250px;\r\n}\r\n.thirdR{\r\n  margin-left: 50px;\r\n  right:0;\r\n  margin-top:-24px;\r\n  }\r\n  .thirdR>input{\r\n    outline: none;\r\n    border:0;\r\n    }\r\n\r\n.logoHeader{\r\n  margin-top: -50px;\r\n}\r\n\r\n.logoRequire{\r\n  margin-left: 450px;\r\n}\r\n\r\n.pages{\r\n  \r\n  position: absolute;\r\n\t\t/*nos posicionamos en el centro del navegador*/\r\n\t\t\r\n\t\tleft:50%;\r\n\t\t/*determinamos una anchura*/\r\n\t\twidth:400px;\r\n\t\t/*indicamos que el margen izquierdo, es la mitad de la anchura*/\r\n\t\tmargin-left:-200px;\r\n\t\t/*determinamos una altura*/\r\n\t\theight:100px;\r\n\t\t/*indicamos que el margen superior, es la mitad de la altura*/\r\n\t\t\r\n\t\t/*border:1px solid #808080;*/\r\n\t\tpadding:5px;\r\n}\r\n\r\n.pageNumbers{\r\n  margin-right: 0.3em;\r\n  color: white;\r\n  -webkit-user-select: none;\r\n     -moz-user-select: none;\r\n      -ms-user-select: none;\r\n          user-select: none;\r\n  cursor: pointer;\r\n  list-style: none;\r\n  display: flex;\r\n  padding:20px;\r\n  justify-content: center;\r\n}\r\n\r\n.pageNumbers{\r\n  padding-left: 12px;\r\n}\r\n\r\n.pageNumbers>div{\r\n  border: 1px solid #808080;\r\n  padding: 20px;\r\n  border-radius: 100px;\r\n  \r\n  text-align: center;\r\n  width: 70px;\r\n  }\r\n  ", ""]);
 
 // exports
 
@@ -6578,7 +6578,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 exports.i(__webpack_require__(/*! -!../../../../node_modules/css-loader??ref--6-1!../../../../node_modules/postcss-loader/src??ref--6-2!./home.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./resources/js/components/css/home.css"), "");
 
 // module
-exports.push([module.i, ".popupContainer{\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  margin: auto;\n  background-color: rgba(192, 192, 192, 0.075);\n  height: 900px;\n  width: 2000px;\n}\n\n.popup{\n  position: absolute;\n  left: 25%;\n  right: 25%;\n  top: 25%;\n  bottom: 25%;\n  margin: auto;\n  background: #EDE5E5;\n}\n\n.bClose{\n  float: right;\n}\n\n.fullImage {\n  display: flex;\n  z-index: -1;\n}\n\n.fullDescription{\n  padding: 20px;\n  margin-top: 220px;\n  text-align: justify;\n  font-family: GothamRounded;\n  font-size: 16px;\n}\n\n.bigContainer{\n  background-color: white;\n  height: 180px;\n  width: 600px;\n  margin-top: 20px;\n  margin-left: 210px;\n  position: absolute;\n}\n\n@font-face {\n  font-family: GothamMedium;\n  src: url(" + escape(__webpack_require__(/*! ../../../Font/GothamRounded-Medium.ttf */ "./resources/Font/GothamRounded-Medium.ttf")) + ");\n}\n@font-face {\n  font-family: GothamRounded;\n  src: url(" + escape(__webpack_require__(/*! ../../../Font/GothamRounded-Book.ttf */ "./resources/Font/GothamRounded-Book.ttf")) + ");\n}\n@font-face {\n  font-family: GothamRounded;\n  src: url(" + escape(__webpack_require__(/*! ../../../Font/GothamRounded-Book.ttf */ "./resources/Font/GothamRounded-Book.ttf")) + ");\n}\n\n.titleDiv{\n  color: #212525;\n  font-size: 23px;\n  font-family: GothamMedium;\n  padding: 5px;\n  margin-left: 10px;\n  border-bottom: black 1px solid;\n  \n}\n.previewDiv{\n  font-family: GothamRounded;\n  font-size: 14px;\n  color:#F59F00;\n  margin-left: 20px;\n  display: flex;\n  padding: 3px;\n  \n}\n.idiomDiv{\n  font-family: GothamMedium;\n  font-size: 14px;\n  color: #212529;\n  background: #A9A9A9;\n  margin-left: 315px;\n  padding: 10px;\n}\n\n.iconsDiv{\n  padding: 8px;\n  display: flex;\n}\n\n.heart{\n  display: flex;\n}\n.heart>div{\n  padding-left: 4px;\n}\n.star{\n  display: flex;\n}\n.hand{\n  display: flex;\n}\n.heartSon{\n  \n}\n.nameIcon{\n  margin-top: -7px;\n}\n\n.nameIcon{\n  color:#D7CFCF;\n  font-size: 16px;\n  margin-left: -20px;\n  padding-top: 5px;\n}\n.nameIconP{\n  color:#D7CFCF;\n  font-size: 16px;\n  margin-left: -25px;\n  \n}\n.nameIconH{\n  color:#D7CFCF;\n  font-size: 16px;\n  margin-left: -25px;\n}\n.iconsDiv>div{\n  padding-left: 40px;\n}\n\n.premiere{\n  background-color: #21462F;\n  height: 50px;\n  width: 180px;\n  position: absolute;\n  right:0;\n  bottom:0;\n  font-family: GothamMedium;\n  font-size: 18px;\n  color:#FFFF;\n  padding: 10px;\n  display: flex;\n}\n\n.premiere>div{\n  padding-left: 10px;\n}\n\n.calendarIcon{\n  left: 0;\n}", ""]);
+exports.push([module.i, ".popupContainer{\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  margin: auto;\n  background-color: rgba(192, 192, 192, 0.075);\n  height: 900px;\n  width: 2000px;\n\n\n\n  \n}\n\n.popup{\n  position: absolute;\n  left: 15%;\n  right: 30%;\n  top: 25%;\n  bottom: 25%;\n  margin: auto;\n  background: #EDE5E5;\n}\n\n.bClose{\n  float: right;\n}\n\n.fullImage {\n  display: flex;\n  z-index: -1;\n}\n\n.fullDescription{\n  padding: 20px;\n  margin-top: 220px;\n  text-align: justify;\n  font-family: GothamRounded;\n  font-size: 16px;\n}\n\n.bigContainer{\n  background-color: white;\n  height: 180px;\n  width: 600px;\n  margin-top: 20px;\n  margin-left: 210px;\n  position: absolute;\n\n\n  \n}\n\n@font-face {\n  font-family: GothamMedium;\n  src: url(" + escape(__webpack_require__(/*! ../../../Font/GothamRounded-Medium.ttf */ "./resources/Font/GothamRounded-Medium.ttf")) + ");\n}\n@font-face {\n  font-family: GothamRounded;\n  src: url(" + escape(__webpack_require__(/*! ../../../Font/GothamRounded-Book.ttf */ "./resources/Font/GothamRounded-Book.ttf")) + ");\n}\n@font-face {\n  font-family: GothamRounded;\n  src: url(" + escape(__webpack_require__(/*! ../../../Font/GothamRounded-Book.ttf */ "./resources/Font/GothamRounded-Book.ttf")) + ");\n}\n\n.titleDiv{\n  color: #212525;\n  font-size: 23px;\n  font-family: GothamMedium;\n  padding: 5px;\n  margin-left: 10px;\n  border-bottom: black 1px solid;\n  \n}\n.previewDiv{\n  font-family: GothamRounded;\n  font-size: 14px;\n  color:#F59F00;\n  margin-left: 20px;\n  display: flex;\n  padding: 3px;\n  \n}\n.idiomDiv{\n  font-family: GothamMedium;\n  font-size: 14px;\n  color: #212529;\n  background: #A9A9A9;\n  margin-left: 315px;\n  padding: 10px;\n}\n\n.iconsDiv{\n  padding: 8px;\n  display: flex;\n}\n\n.heart{\n  display: flex;\n}\n.heart>div{\n  padding-left: 4px;\n}\n.star{\n  display: flex;\n}\n.hand{\n  display: flex;\n}\n.heartSon{\n  \n}\n.nameIcon{\n  margin-top: -7px;\n}\n\n.nameIcon{\n  color:#D7CFCF;\n  font-size: 16px;\n  margin-left: -20px;\n  padding-top: 5px;\n}\n.nameIconP{\n  color:#D7CFCF;\n  font-size: 16px;\n  margin-left: -25px;\n  \n}\n.nameIconH{\n  color:#D7CFCF;\n  font-size: 16px;\n  margin-left: -25px;\n}\n.iconsDiv>div{\n  padding-left: 40px;\n}\n\n.premiere{\n  background-color: #21462F;\n  height: 50px;\n  width: 180px;\n  position: absolute;\n  right:0;\n  bottom:0;\n  font-family: GothamMedium;\n  font-size: 18px;\n  color:#FFFF;\n  padding: 10px;\n  display: flex;\n}\n\n.premiere>div{\n  padding-left: 10px;\n}\n\n.calendarIcon{\n  left: 0;\n}", ""]);
 
 // exports
 
@@ -66666,6 +66666,7 @@ function (_Component) {
     _classCallCheck(this, Home);
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(Home).call(this));
+    _this.div = react__WEBPACK_IMPORTED_MODULE_0___default.a.createRef();
     _this.state = {
       movies: [],
       showPopup: false,
@@ -66679,7 +66680,8 @@ function (_Component) {
   _createClass(Home, [{
     key: "handleClick",
     value: function handleClick(event) {
-      event.target.clasList = 'background-color: #FFD700';
+      //this.div.current.style.background='yellow';
+      //console.log(this.div.current);
       this.setState({
         currentPage: Number(event.target.id)
       });
@@ -66739,7 +66741,7 @@ function (_Component) {
           width: "30px"
         })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: "secondR"
-        }, movie.rating), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        }, movie.rating)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: "thirdR"
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
           className: "buttonDetail",
@@ -66749,7 +66751,7 @@ function (_Component) {
         }), _this3.state.showPopup ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Popup__WEBPACK_IMPORTED_MODULE_5__["default"], {
           closePopup: _this3.togglePopup.bind(_this3),
           text: _this3.state.movieId
-        }) : null)))), ")");
+        }) : null))), ")");
       });
       var pageNumbers = [];
 
@@ -66761,8 +66763,9 @@ function (_Component) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           key: number,
           id: number,
+          ref: _this3.div,
           onClick: _this3.handleClick,
-          className: "iconPage"
+          className: number
         }, number);
       });
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {

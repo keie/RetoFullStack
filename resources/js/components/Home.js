@@ -10,7 +10,7 @@ export default class Home extends Component {
 
     constructor(){
       super();
-      
+      this.div=React.createRef();
       this.state={
         movies:[],
         showPopup: false,
@@ -19,14 +19,21 @@ export default class Home extends Component {
         
       };
       this.handleClick = this.handleClick.bind(this);
+      
     }
 
     handleClick(event) {
-      event.target.clasList='background-color: #FFD700';
+      
+      //this.div.current.style.background='yellow';
+      //console.log(this.div.current);
+      
       this.setState({
         currentPage: Number(event.target.id)
+        
       });
+      
     }
+    
 
     componentWillMount(){
       axios.get('/api/movie').then(response => {
@@ -76,14 +83,14 @@ export default class Home extends Component {
                     <div className="secondR">
                       {movie.rating}
                     </div>
-                    <div className="thirdR">
+                  </div>
+                  <div className="thirdR">
                       <input className="buttonDetail" type="button" value="Details" onClick={this.togglePopup.bind(this,movie.id)}/>
                       {this.state.showPopup ? 
                         <Popup closePopup={this.togglePopup.bind(this)} text={this.state.movieId}/>
                         : null
                       }
                     </div>
-                </div>
               </div>
             </div>
                   )
@@ -99,7 +106,8 @@ export default class Home extends Component {
              <div
                 key={number}
                 id={number}
-                onClick={this.handleClick} className="iconPage">{number}</div>);
+                ref={this.div}
+                onClick={this.handleClick} className={number}>{number}</div>);
            
          });
         return (
