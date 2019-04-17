@@ -1,6 +1,6 @@
-# Título del Proyecto
+# YourMovieDB
 
-TheMovies
+Your movies repositories
 
 ## Comenzando 🚀
 
